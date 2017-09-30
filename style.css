@@ -26,18 +26,10 @@ p {
 	margin-bottom: 10px;
 }
 
-header {
+header, nav {
 	background-color: #ebebeb;
 	padding: 30px;
 	margin-bottom: 10px;
-	text-align: center;
-	color: #777;
-}
-
-nav {
-	background-color: #ebebeb;
-	padding: 30px;
-	margin-bottom: 20px;
 	text-align: center;
 	color: #777;
 }
@@ -81,20 +73,15 @@ article {
 	padding: 10px 1px;
 }
 
-
-#h-tags {
+#p-tags, #h-tags {
 	text-align: center;
 	margin-left: 15px;
 	margin-right: 15px;
-	margin-bottom: 5px;
 	background-color: #ebebeb;
 }
 
-#p-tags {
-	text-align: center;
-	margin-left: 15px;
-	margin-right: 15px;
-	background-color: #ebebeb;
+#h-tags {
+	margin-bottom: 5px;
 }
 
 /* Cleared the float for the footer */
